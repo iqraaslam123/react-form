@@ -180,3 +180,85 @@
   margin-bottom: 6px;
   color: #cbd5f5;
 }
+
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .page {
+    gap: 40px;
+    padding: 30px;
+  }
+
+  .welcome {
+    max-width: 100%;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .welcome {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .welcome h1 {
+    font-size: 32px;
+  }
+
+  .welcome p {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .form {
+    padding: 26px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .welcome h1 {
+    font-size: 26px;
+  }
+
+  .welcome p {
+    font-size: 14px;
+  }
+
+  .welcome .name {
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .form {
+    padding: 22px;
+    border-radius: 14px;
+  }
+
+  .form input,
+  .form select {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .form button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
